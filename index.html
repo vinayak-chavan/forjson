@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Trend</title>
+    <link rel="stylesheet" href="./bootstrap-5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./bootstrap-5/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/mdb.min.js"></script>
+</head>
+<body>
+    <section class="mainSec">
+        <div class="container-fluid">
+
+        	<!--- Sidebar Menu --->
+
+            <div class="row">
+                <div class="leftCol col-lg-2">
+                  <div class="logoDiv">
+                    <div>
+                      <img class="bankLogo" src="./images/logo.png" alt="logo">
+                    </div>
+                    <div class="welTitle">Welcome</div>
+                    <div class="bankName"><b>F I N B A N K</b></div>
+                  </div>
+                  <div class="menuDiv">
+                    <div class="container-fluid menuContainer">
+                      <div class="row">
+                        <div class="col-3 homeIcon menuIconDiv"><i class="fa fa-home menuIcon"></i></div>
+                        <div class="col-9 menuTxt d-flex align-items-center">
+                          Dashboard
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container-fluid menuContainer">
+                      <div class="row">
+                        <div class="col-3 menuIconDiv"><i class="fa fa-exchange menuIcon"></i></div>
+                        <div class="col-9 menuTxt d-flex align-items-center">
+                          Transaction
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container-fluid menuContainer">
+                      <div class="row">
+                        <div class="col-3 menuIconDiv"><i class="fa fa-credit-card menuIcon"></i></div>
+                        <div class="col-9 menuTxt d-flex align-items-center">
+                          Cards
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container-fluid menuContainer">
+                      <div class="row">
+                        <div class="col-3 menuIconDiv"><i class="fa fa-percent menuIcon"></i></div>
+                        <div class="col-9 menuTxt d-flex align-items-center">
+                          Offers
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container-fluid menuContainer">
+                      <div class="row">
+                        <div class="col-3 menuIconDiv"><i class="fa fa-dollar menuIcon"></i></div>
+                        <div class="col-9 menuTxt d-flex align-items-center">
+                          Investment
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container-fluid logout menuContainer">
+                    <div class="row">
+                      <div class="col-3 menuIconDiv"><i class="fa fa-sign-out menuIcon"></i></div>
+                      <div class="col-9 menuTxt d-flex align-items-center">
+                        Logout
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--- header --->
+
+                <div class="rightCol col-lg-10 col-md-12">
+                    <header>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-*">
+                            <div class="container-fluid">
+                              <div class="navbar-brand">
+                                <div class="form">
+                                    <i class="fa fa-search"></i>
+                                    <input type="text" class="form-control form-input" placeholder="Search transaction, offers, investment etc....">
+                                </div>
+                              </div>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto">
+                                  <li class="nav-item hiddenLink">
+                                    <a class="nav-link" href="">Dashboard</a>
+                                  </li>
+                                  <li class="nav-item hiddenLink">
+                                    <a class="nav-link" href="">Transaction</a>
+                                  </li>
+                                  <li class="nav-item hiddenLink">
+                                    <a class="nav-link" href="">Cards</a>
+                                  </li>
+                                  <li class="nav-item hiddenLink">
+                                    <a class="nav-link" href="">Offers</a>
+                                  </li>
+                                  <li class="nav-item hiddenLink">
+                                    <a class="nav-link" href="">Investment</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="">Feedback</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="">Contact</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="">Help</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="">
+                                      <i class="fa fa-bell notifiIcon">
+                                        <div class="notifiDot"></div>
+                                      </i>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item profileTxt">
+                                    <a class="nav-link" href="">Profile</a>
+                                  </li>
+                                  <li class="nav-item hiddenProfile">
+                                    <a class="nav-item" href="">
+                                      <img class="profilePic" src="./images/profile-image.png" alt="profile">
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                        </nav>
+                    </header>
+
+                    <!--- main conetent --->
+
+                    <section class="rightSec">
+                      <div class="container-fluid rigSecCon">
+                        <div class="row">
+                          <div class="col-md-8 col-sm-12 rightSecCol">
+                            <div class="exploreDiv">
+                              <div class="container-fluid">
+                                <div class="row">
+                                  <div class="firstCol col  d-flex align-items-center">
+                                    <img class="insImg" src="./images/man.png" alt="image">     
+                                  </div>
+                                  <div class="secondCol col d-flex align-items-center">
+                                    <div>
+                                      <p class="insuTitle">Live Life Confidentaly</p>
+                                      <p class="insuinfo">Chase your dreams and finish your plans by spending money in insurance</p>
+                                      <button type="button" class="btnInsurance">Explore Insurance</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!--- Cards --->
+
+                            <div class="tranTypeContainer container-fluid">
+                              <div class="row">
+                                <div class="tranTypeCol col-lg-4 col-md-6 col-sm-12">
+                                  <div class="tranTypeDiv">
+                                    <div class="tranTypeFilter">Monthly <i class="fa fa-angle-down rightAngleIcon"></i></div>
+                                    <div class="container-fluid">
+                                      <div class="row">
+                                        <div class="col d-flex align-items-center">
+                                          <img class="depositChart" src="./images/deposit-chart.png" alt="deposit chart">
+                                        </div>
+                                        <div class="col">
+                                          <div class="tranTypeTitle">Deposit</div>
+                                          <div class="tranTypeAmount">$58789.78</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="tranTypeCol col-lg-4 col-md-6 col-sm-12">
+                                  <div class="tranTypeDiv">
+                                    <div class="tranTypeFilter">Monthly <i class="fa fa-angle-down rightAngleIcon"></i></div>
+                                    <div class="container-fluid">
+                                      <div class="row">
+                                        <div class="col d-flex align-items-center">
+                                          <img class="depositChart" src="./images/withdraw-chart.png" alt="deposit chart">
+                                        </div>
+                                        <div class="col">
+                                          <div class="tranTypeTitle">Withdrawal</div>
+                                          <div class="tranTypeAmount">$49780.78</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="tranTypeCol col-lg-4 col-md-12 col-sm-12">
+                                  <div class="tranTypeDiv">
+                                    <div class="tranTypeFilter">Monthly <i class="fa fa-angle-down rightAngleIcon"></i></div>
+                                    <div class="container-fluid">
+                                      <div class="row">
+                                        <div class="col d-flex align-items-center">
+                                          <img class="depositChart" src="./images/saving-chart.png" alt="deposit chart">
+                                        </div>
+                                        <div class="col">
+                                          <div class="tranTypeTitle">Savings</div>
+                                          <div class="tranTypeAmount">$46344.78</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <!--- Chart using chartJS --->
+
+                            <div class="barChartDiv container-fluid">
+                              <div class="container-fluid">
+                                <div class="row">
+                                  <div class="col-4 chartTitle">Cash Flow</div>
+                                  <div class="col-8 d-flex align-items-center">
+                                    <div class="container-fluid">
+                                      <div class="row">
+                                        <div class="col-lg-3 col-md-6 colInfo d-flex align-items-center">
+                                          <i class="fa fa-circle receivedDot"></i> &nbsp; Received
+                                        </div>
+                                        <div class="col-lg-2 col-md-6 colInfo d-flex align-items-center">
+                                          <i class="fa fa-circle spentDot"></i> &nbsp; Spent
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 colInfo d-flex align-items-center">
+                                          <i class="fa fa-circle noTranDot"></i> &nbsp; No Transaction
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 colInfo">
+                                          <div class="selectFilter">
+                                            Last Month <i class="fa fa-angle-down rightAngleIcon"></i>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="chartDiv">
+                                <canvas id="myChart" class="chartjs-render-monitor"></canvas>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!--- Right side part --->
+
+                          <div class="col-md-4 col-sm-12 tranCol">
+                            <div class="transactionSec">
+                              <div class="tranCardDiv">
+                                <div class="container-fluid">
+                                  <div class="row">
+                                    <div class="col-9 d-flex align-items-center">My card</div>
+                                    <div class="col-3 d-flex tranIconDivPar">
+                                      <div class="tranIconDiv"><i class="fa fa-plus tranIcon"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!--- visacard design --->
+
+                              <div class="shadPar">
+                                <div class="visaCard cardShadow"></div>
+                              </div>
+                              <div class="visaCard cardPosition">
+                                <div class="cardBtn">
+                                  <i class="fa fa-caret-down"></i>
+                                </div>
+                                <div class="container-fluid">
+                                  <div class="row">
+                                    <div class="col d-flex align-items-center">
+                                      <div class="checkDiv">
+                                        <i class="fa fa-check"></i>
+                                      </div>
+                                    </div>
+                                    <div class="col visaTitle">VISA</div>
+                                  </div>
+                                </div>
+                                <div class="cardNum">
+                                  **** **** ****  2864
+                                </div>
+                                <div class="container-fluid cardFooter">
+                                  <div class="row">
+                                    <div class="col-6">
+                                      <div class="footTitle">AVAILABLE FUNDS</div>
+                                      <div class="footInfo">68.789,56 $</div>
+                                    </div>
+                                    <div class="col-6">
+                                      <div class="container-fluid">
+                                        <div class="row">
+                                          <div class="col">
+                                            <div class="footTitle">EXPIRES</div>
+                                            <div class="footInfo">8/22</div>
+                                          </div>
+                                          <div class="col">
+                                            <div class="footTitle">CVV</div>
+                                            <div class="footInfo">186</div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!--- transactions --->
+
+                              <div class="container-fluid latestTranDiv">
+                                <div class="row">
+                                  <div class="col-9 d-flex align-items-center">Latest Transaction</div>
+                                  <div class="col-3 d-flex tranIconDivPar">
+                                    <div class="tranIconDiv"><i class="fa fa-arrow-right tranIcon"></i></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid latestTranContainer">
+                                <div class="row">
+                                  <div class="col-2 latestTranIconDiv d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-shopping-bag latestTranIcon"></i>
+                                  </div>
+                                  <div class="col-6 latestTranContent d-flex align-items-center">
+                                    <div>
+                                      <div class="latTranConTitle">Supreme Shirt</div>
+                                      <div class="latTranConData">11 Nov, 2020 11:00 pm</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-3 d-flex amount align-items-center justify-content-center">
+                                    -15,00 $
+                                  </div>
+                                  <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-angle-right rightAngleIcon"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid latestTranContainer">
+                                <div class="row">
+                                  <div class="col-2 latestTranIconDiv d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-cc-visa latestTranIcon"></i>
+                                  </div>
+                                  <div class="col-6 latestTranContent d-flex align-items-center">
+                                    <div>
+                                      <div class="latTranConTitle">Salary</div>
+                                      <div class="latTranConData">05 Nov, 2020 11:00 am</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-3 d-flex receivedAmount align-items-center justify-content-center">
+                                    +249,69 $
+                                  </div>
+                                  <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-angle-right rightAngleIcon"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid latestTranContainer">
+                                <div class="row">
+                                  <div class="col-2 latestTranIconDiv d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-heartbeat latestTranIcon"></i>
+                                  </div>
+                                  <div class="col-6 latestTranContent d-flex align-items-center">
+                                    <div>
+                                      <div class="latTranConTitle">Medical Checkup</div>
+                                      <div class="latTranConData">04 Nov, 2020 09:00 am</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-3 d-flex amount align-items-center justify-content-center">
+                                    -39,50 $
+                                  </div>
+                                  <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-angle-right rightAngleIcon"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid latestTranContainer">
+                                <div class="row">
+                                  <div class="col-2 latestTranIconDiv d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-cutlery latestTranIcon"></i>
+                                  </div>
+                                  <div class="col-6 latestTranContent d-flex align-items-center">
+                                    <div>
+                                      <div class="latTranConTitle">Pizzahot</div>
+                                      <div class="latTranConData">04 Nov, 2020 10:00 pm</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-3 d-flex amount align-items-center justify-content-center">
+                                    -6,50 $
+                                  </div>
+                                  <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-angle-right rightAngleIcon"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid latestTranContainer">
+                                <div class="row">
+                                  <div class="col-2 latestTranIconDiv d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-train latestTranIcon"></i>
+                                  </div>
+                                  <div class="col-6 latestTranContent d-flex align-items-center">
+                                    <div>
+                                      <div class="latTranConTitle">Supreme Shirt</div>
+                                      <div class="latTranConData">01 Nov, 2020 10:00 am</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-3 d-flex amount align-items-center justify-content-center">
+                                    -15,00 $
+                                  </div>
+                                  <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-angle-right rightAngleIcon"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="container-fluid latestTranContainer">
+                                <div class="row">
+                                  <div class="col-2 latestTranIconDiv d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-cc-visa latestTranIcon"></i>
+                                  </div>
+                                  <div class="col-6 latestTranContent d-flex align-items-center">
+                                    <div>
+                                      <div class="latTranConTitle">CapitalOne</div>
+                                      <div class="latTranConData">30 Oct, 2020 03:00 pm</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-3 d-flex receivedAmount align-items-center justify-content-center">
+                                    +1300,00 $
+                                  </div>
+                                  <div class="col-1 d-flex align-items-center justify-content-center">
+                                    <i class="fa fa-angle-right rightAngleIcon"></i>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./js/script.js"></script>
+</html>

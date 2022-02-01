@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainSec{
+    background-color: #eeeff6;
+    padding: 20px;
+}
+
+.leftCol{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #172b9f;
+    position: relative;
+}
+
+.logoDiv{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bankLogo{
+    max-width: 80px;
+    margin: auto;
+}
+
+.welTitle{
+    margin-top: 20px;
+    color: #c9cee8;
+    font-size: 12px;
+}
+
+.bankName{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.menuDiv{
+    margin-top: 50px;
+}
+
+.menuContainer{
+    margin-top: 30px;
+}
+
+.menuIconDiv{
+    text-align: center;
+    background-color: #3a4bad;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.homeIcon{
+    background-color: #f42879;
+}
+
+.menuIcon{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.menuTxt{
+    color: #ffffff;
+    font-size: 15px;
+}
+.logout{
+    position: absolute;
+    bottom: 50px;
+}
+
+.rightCol{
+    padding: 20px;
+}
+
+.form {
+    position: relative
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    color: #9ca3af
+}
+
+.form span {
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+}
+
+.form-input {
+    width: 600px;
+    height: 50px;
+    text-indent: 33px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none
+}
+
+.hiddenLink{
+    display: none;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+.profileTxt{
+    display: none;
+}
+
+.notifiIcon{
+    position: relative;
+}
+
+.notifiDot:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: red;
+    top: -3px;
+    right: -2px;
+    border-radius: 50%;
+}
+
+.profilePic{
+    margin-left: 10px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.rigSecCon{
+    margin-top: 100px;
+}
+
+.rigSecCon .row{
+    --bs-gutter-x: 0;
+}
+
+.rightSecCol{
+    margin: 0px;
+    padding: 10px;
+}
+
+.rigSecCon .row .rightSecCol .exploreDiv{
+    margin-top: -50px;
+}
+
+.firstCol{
+    padding: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: radial-gradient(circle farthest-corner at 0px 150px, #E6E6E6 70%, #ffffff 70%);
+    background-size: 120% 100%;
+}
+
+.insImg{
+    width: 250px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.secondCol{
+    background-color: #ffffff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+}
+
+.secondCol div .insuTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.insuinfo{
+	font-size: 13px;
+}
+
+.btnInsurance{
+    background-color: #f42879;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+    font-size: 14px;
+}
+}
+
+.tranTypeContainer1{ 
+    margin-top: 25px;
+ }
+
+.tranTypeContainer{
+    margin-top: 30px;
+}
+
+.tranTypeCol{
+    padding: 10px;
+}
+
+.tranTypeDiv{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px 10px;
+    position: relative;
+}
+
+.tranTypeFilter{
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.depositChart{
+    max-width: 70px;
+}
+
+.tranTypeTitle{
+    font-size: 12px;
+}
+
+.tranTypeAmount{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.barChartDiv{
+    bottom: 10px;
+    padding: 50px 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.chartTitle{
+    font-weight: bold;
+    font-size: 20px;
+    color:gray;
+}
+
+.colInfo{
+    font-size: 12px;
+}
+
+.receivedDot, .spentDot, .noTranDot{
+    font-size: 10px;
+}
+
+.receivedDot{
+    color: #172b9f;
+}
+
+.spentDot{
+    color: #f52a7a;
+}
+
+.noTranDot{
+    color: #e7e8ef;
+}
+
+.selectFilter{
+   
+    width: max-content;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.chartDiv{
+    margin-top: 30px;
+}
+
+.barChartImg{
+    max-width: 100%
+}
+
+.tranCol{
+    padding: 10px;
+}
+
+.transactionSec{
+    margin-top: -50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 0 20px;
+    padding-bottom: 50px;
+    height: 105%;
+}
+
+.tranCardDiv .container-fluid .row {
+    padding-top: 20px;
+}
+
+.tranIconDivPar{
+    text-align: center;
+}
+
+.tranIconDiv{
+    margin: auto;
+    background-color: #f42879;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: max-content;
+}
+
+.tranIcon{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.shadPar{
+    padding: 0 20px;
+}
+
+.visaCard{
+    border-radius: 10px;
+    background: linear-gradient(110deg, #172b9f 60%, #1a31c0 60%);
+    padding: 20px;
+    color: #ffffff;
+}
+
+.cardPosition{
+    position: relative;
+}
+
+.cardBtn{
+    position: absolute;
+    border-radius: 50%;
+    background-color: #f42879;
+    top: 40%;
+    right: -10px;
+    padding: 5px 10px;
+}
+
+.cardShadow{
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 40px;
+    height: 15px;
+    background: none;
+    background-color: #b1b8df;
+    padding: 0;
+}
+
+.checkDiv{
+    padding: 3px 5px;
+    background-color: #35bb84;
+    border-radius: 50%;
+}
+
+.visaTitle{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}
+
+.cardNum{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.cardFooter{
+    margin-top: 20px;
+}
+
+.footTitle, .footInfo{
+    font-size: 10px;
+    color: #9da7db;
+}
+
+.footInfo{
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.latestTranDiv{
+    margin-top: 40px
+}
+
+.latestTranContainer{
+    margin-top: 25px;
+}
+
+.latestTranIconDiv{
+    text-align: center;
+    border: 2px solid #d2d2d8;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.latestTranIcon{
+    font-size: 22px;
+}
+
+.latestTranContent{
+    padding: 8px;
+}
+
+.latTranConTitle{
+    font-size: 15px;
+  
+}
+
+.latTranConData{
+    font-size: 10px;
+    color: gray;
+}
+
+.amount, .receivedAmount{
+    color: #f42879;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.receivedAmount{
+    color: #45c08e;
+}
+
+@media all and (max-width: 358px) {
+    .form-input {
+        width: 70px;
+    }
+}
+
+@media all and (max-width: 428px) {
+    .firstCol{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .secondCol{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .insImg{
+        width: 150px;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .form-input {
+        width: 150px;
+    }
+
+    .insImg{
+        width: 150px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .tranCol{
+        margin-top: 50px;
+    }
+}
+
+@media all and (max-width: 990px) {
+    .form-input {
+        width: 200px;
+    }
+
+    .hiddenLink{
+        display: block;
+    }
+
+    .profileTxt{
+        display: block;
+    }
+
+    .hiddenProfile{
+        display: none;
+    }
+
+    .leftCol{
+        display: none;
+    }
+
+    .rightCol{
+        padding: 0px;
+    }
+}
